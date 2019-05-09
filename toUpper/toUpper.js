@@ -1,15 +1,13 @@
-let toUpper = function(testString){
+String.prototype.toUpper = function(){
     var upperCase = '', asciiCode = 0;
-    let regexTest = /[a-z]/;
-    for(var index = 0; index < testString.length; index++){
-        if(regexTest.test(testString[index]) === true){
-            asciiCode = testString.charCodeAt(index) - 32;
+    var regexTest = /[a-z]/;
+    for(var index = 0; index < this.length; index++){
+        if(regexTest.test(this[index]) === true){
+            asciiCode = this.charCodeAt(index) - 32;
             upperCase+=String.fromCharCode(asciiCode);
         }else{
-            upperCase+=testString[index];
+            upperCase+=this[index];
         }
     }
     return upperCase;
 }
-
-module.exports = toUpper;
