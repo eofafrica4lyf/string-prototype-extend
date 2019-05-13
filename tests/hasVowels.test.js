@@ -1,4 +1,4 @@
-require("./hasVowels");
+require("../hasVowels/hasVowels");
 
 describe("hasVowel function returns true if the input string contains one or more vowels", () => {
   test('Case 1: "a"', function() {

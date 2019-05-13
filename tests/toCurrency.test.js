@@ -1,4 +1,4 @@
-require('./toCurrency');
+require('../toCurrency/toCurrency');
 
 describe('toCurrency function returns a currency representation of the String',()=>{
     it('Case 1: "11111.11" returns "11,111.11"',()=>{

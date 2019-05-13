@@ -1,4 +1,4 @@
-require('./numberWords');
+require('../numberWords/numberWords');
 
 describe('numberWords function returns the numbers in words ',()=>{
     it('Case 1: "325" returns "three two five"',()=>{

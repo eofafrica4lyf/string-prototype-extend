@@ -1,4 +1,4 @@
-require('./wordCount');
+require('../wordCount/wordCount');
 
 describe('wordCount function counts the number of words in the string',()=>{
     it('Case 1: Test "How many words are here?"',()=>{

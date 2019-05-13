@@ -1,4 +1,4 @@
-require('./words');
+require('../words/words');
 
 describe('words function returns a list of the words in the array as an array',()=>{
     it('Case 1: Test "How many words are here?"',()=>{

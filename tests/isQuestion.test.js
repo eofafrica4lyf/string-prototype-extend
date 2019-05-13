@@ -1,4 +1,4 @@
-require('./isQuestion');
+require('../isQuestion/isQuestion');
 
 describe('isQuestion function returns true is the string ends with a question mark "?"',()=>{
     it('Case 1: Testing ""qwerty?" to see if it\'s a question',()=>{
