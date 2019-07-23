@@ -1,0 +1,24 @@
+{
+  "name": "string_extend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eofafrica4lyf/String-Prototype-Extend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eofafrica4lyf/String-Prototype-Extend/issues"
+  },
+  "homepage": "https://github.com/eofafrica4lyf/String-Prototype-Extend#readme"
+}
