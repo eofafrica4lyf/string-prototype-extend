@@ -1,5 +1,6 @@
-# String Prototype Extend
 [![CircleCI](https://circleci.com/gh/eofafrica4lyf/string-prototype-extend.svg?style=svg)](https://circleci.com/gh/eofafrica4lyf/string-prototype-extend)
+# String Prototype Extend
+
 
 A mini-prototype project to extend the ​String​ class in Javascript. Using Prototype Oriented Programming, methods, procedures and instance attributes are added to the String class to support more string manipulation features. Listed below is a list of the methods added to the string class.
 
